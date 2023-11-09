@@ -129,9 +129,10 @@
 }
 
 .reservation__title {
-  font-family: Inter;
+  line-height: 52px;
+  font-family: "Inter";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 500px;
   font-size: 44px;
   line-height: 52px;
   font-weight: bold;
