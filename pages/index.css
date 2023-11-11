@@ -301,29 +301,31 @@
   flex-wrap: wrap;
   list-style-type: none;
   justify-content: space-around;
-  gap: 100%;
-  padding-left: 0;
 }
 
 .card {
   margin-bottom: 100px;
   list-style-type: none;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  gap: 100%;
-  padding-left: 0;
+  width: 540px;
 }
 
 .card__title {
+  margin-bottom: 32px;
 }
 
 .card__list {
   list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
+.card__list-item {
+  display: flex;
+}
 .card__list-divider {
-  list-style-type: ;
+  flex-grow: 1;
 }
 
 .footer {
