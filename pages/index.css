@@ -1,3 +1,6 @@
+@import url(/vendor/normalize.css);
+@import url(/blocks/bem\ css);
+
 .page {
   min-width: 1100px;
   max-width: 1600px;
