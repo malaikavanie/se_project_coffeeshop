@@ -1,0 +1,22 @@
+.recipes {
+  padding: 100px 80px 215px;
+  background-color: #0a2750;
+  background-image: url(/images/background_recipes.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.recipes__videos {
+  gap: 100px;
+  margin-top: 224px;
+  display: flex;
+  justify-content: center;
+}
+
+.recipes__video-caption {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 215px;
+  color: white;
+}
