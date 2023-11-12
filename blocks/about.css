@@ -57,8 +57,8 @@
   top: -152px;
 }
 
-.about__circle_animation {
-  animation: te pulsa 1.3s ease-in-out;
+.about__circle_animation_blurred {
+  animation: pulsate 1.3s ease-in-out;
 }
 
 @keyframes pulsate {
