@@ -39,4 +39,5 @@
   flex-wrap: wrap;
   list-style-type: none;
   justify-content: space-around;
+  gap: 24px;
 }

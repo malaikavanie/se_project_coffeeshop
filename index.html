@@ -20,7 +20,11 @@
     <div class="page">
       <header class="header">
         <nav class="nav">
-          <img src="./images/logo_coffeeshop_dark.svg" alt="Coffee Shop Logo" />
+          <img
+            src="./images/logo_coffeeshop_dark.svg"
+            alt="Coffee Shop Logo"
+            class="nav__logo"
+          />
           <ul class="nav__links">
             <li><a href="#recipes" class="nav__link">Recipes</a></li>
             <li><a href="#reservation" class="nav__link">Book a table</a></li>
@@ -59,8 +63,8 @@
             Check out some recipes we've collected for your home brewing
             convenience:
           </p>
-          <div class="recipes__videos">
-            <div>
+          <ul class="recipes__videos">
+            <li class="recipes__iframe">
               <iframe
                 src="https://www.youtube.com/embed/j6VlT_jUVPc?si=vSOmfozdah0-vLvY"
                 title="YouTube video player"
@@ -68,9 +72,12 @@
                 allowfullscreen
                 class="recipes__iframe"
               ></iframe>
-              <p class="recipes__video-caption">Aeropress recipe ~5 min</p>
-            </div>
-            <div>
+              <p class="recipes__video-caption">
+                <span>Aeropress</span>
+                <span>~5min</span>
+              </p>
+            </li>
+            <li class="recipes__iframe">
               <iframe
                 src="https://www.youtube.com/embed/st571DYYTR8?si=IHwkL-WrPeuJzgFV"
                 title="YouTube video player"
@@ -78,9 +85,12 @@
                 allowfullscreen
                 class="recipes__iframe"
               ></iframe>
-              <p class="recipes__video-caption">French press recipe ~15 min</p>
-            </div>
-          </div>
+              <p class="recipes__video-caption">
+                <span>French press recipe </span>
+                <span>~15min</span>
+              </p>
+            </li>
+          </ul>
         </section>
         <section class="reservation" id="reservation">
           <h2 class="reservation__title">Book a table</h2>
@@ -94,6 +104,7 @@
                   id="name"
                   name="name"
                   placeholder="Name Surname"
+                  required
                 />
               </label>
               <label for="number" class="form__label"
@@ -106,6 +117,7 @@
                   min="1"
                   max="8"
                   placeholder="1-8"
+                  required
               /></label>
               <label for="datetime-local" class="form__label"
                 >Date & time *
@@ -114,6 +126,7 @@
                   class="form__input"
                   id="datetime-local"
                   name="datetime-local"
+                  required
               /></label>
               <label for="email" class="form__label"
                 >Your email *
@@ -123,6 +136,7 @@
                   id="email"
                   name="email"
                   placeholder="email@email.com"
+                  required
               /></label>
             </fieldset>
             <fieldset class="form__fieldset">
@@ -131,13 +145,13 @@
             <fieldset class="form__fieldset">
               <label
                 for="checkbox"
-                class="form__label form__label_type_checkbox"
-              >
+                class="form__label form__label_type_checkbox"></label>
                 <input
                   type="checkbox"
-                  class="form__input-checkbox"
+                  class="form__checkbox"
                   name="checkbox"
                   id="checkbox"
+                  required
                 />
                 I agree with the terms of use
               </label>
@@ -242,7 +256,7 @@
         <div class="footer__columns">
           <div class="footer__column">
             <img
-              src="./images/logo_coffeeshop_light.svg              "
+              src="./images/logo_coffeeshop_light.svg"
               alt="Triple Peaks Library Logo"
               class="footer__logo"
             />

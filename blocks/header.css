@@ -5,6 +5,8 @@
   height: 100vh;
   flex-direction: column;
   padding: 30px 80px 40px;
+  z-index: 1;
+  box-sizing: border-box;
 }
 
 .header__title {
@@ -27,9 +29,10 @@
   display: block;
 }
 .header__image {
-  z-index: 1;
+  box-sizing: border-box;
+  z-index: -1;
   display: flex;
-  position: absolute;
+  position: relative;
   max-width: 636px;
   top: 135px;
   right: 20px;
