@@ -17,11 +17,11 @@
 
 .card__list-item {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   margin-bottom: 16px;
 }
 .card__list-divider {
   flex-grow: 1;
   height: 1px;
-  color: black;
+  background-color: black;
 }

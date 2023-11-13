@@ -3,14 +3,15 @@
   max-height: 800px;
   display: flex;
   height: 100vh;
+  position: relative;
   flex-direction: column;
-  padding: 30px 80px 40px;
+  padding: 30px 5px 40px 80px;
   z-index: 1;
-  box-sizing: border-box;
 }
 
 .header__title {
   max-width: 729px;
+  width: 100%;
   font-size: 60px;
   line-height: 70px;
   margin: 183px 0 0;
@@ -20,6 +21,7 @@
 
 .header__description {
   max-width: 683px;
+  width: 100%;
   font-size: 20px;
   line-height: 20px;
   margin: 28px 0 0;
@@ -27,15 +29,22 @@
 
 .header__span-accent {
   display: block;
+  font-family: "Noto Serif", "Times New Roman", Times, serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 72px;
+  color: #2f80ed;
 }
 .header__image {
-  box-sizing: border-box;
   z-index: -1;
   display: flex;
-  position: relative;
-  max-width: 636px;
+  position: absolute;
+  width: 646px;
+  height: 568px;
   top: 135px;
-  right: 20px;
+  right: 5px;
+  box-sizing: border-box;
 }
 
 .header__footer {

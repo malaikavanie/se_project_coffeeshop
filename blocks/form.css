@@ -22,6 +22,8 @@
 
 .form__label_type_checkbox {
   display: flex;
+  margin-top: 32px;
+  justify-content: center;
   flex-direction: row;
 }
 
@@ -29,7 +31,7 @@
   width: 20px;
   height: 20px;
   padding-bottom: 120px;
-  margin: auto;
+  margin: 0;
 }
 
 .form__input {
