@@ -1,7 +1,7 @@
 .footer {
   box-sizing: border-box;
   padding: 60px 80px;
-  background-color: #0a2850;
+  background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
   color: #fff;
   font-size: 16px;
   line-height: 20px;

@@ -9,7 +9,6 @@
   z-index: 1;
   background-color: #ffffff;
   box-sizing: border-box;
-  font-family: "Noto Serif", "Times New Roman", Times, serif;
 }
 
 .header__title {
@@ -23,6 +22,7 @@
 }
 
 .header__description {
+  font-family: "Noto Serif", "Times New Roman", Times, serif;
   max-width: 683px;
   width: 100%;
   font-size: 20px;
@@ -52,7 +52,7 @@
   margin-top: auto;
   width: 100%;
   display: flex;
-  align-items: center;
+  align-items: end;
   justify-content: space-between;
   box-sizing: border-box;
   font-family: "Inter", "Times New Roman", Times, serif;

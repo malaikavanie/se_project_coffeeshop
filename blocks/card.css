@@ -27,6 +27,11 @@
   align-items: baseline;
   margin-bottom: 16px;
 }
+
+.card__list-item:last-child {
+  margin-bottom: 0px;
+}
+
 .card__list-divider {
   flex-grow: 1;
   height: 1px;

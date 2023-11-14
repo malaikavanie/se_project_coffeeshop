@@ -21,6 +21,7 @@
 
 .recipes__subtitle {
   max-width: 438px;
+  margin-top: 24px;
   margin-bottom: 80px;
   font-family: "Noto Serif", "Times New Roman", Times, serif;
   font-style: normal;
@@ -45,7 +46,7 @@
   display: flex;
   justify-content: space-between;
   color: white;
-  font-family: "Inter";
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
