@@ -7,6 +7,7 @@
   flex-direction: column;
   padding: 30px 80px 40px;
   z-index: 1;
+  background-image: url(../images/background_header.svg);
   background-color: #ffffff;
   box-sizing: border-box;
 }
